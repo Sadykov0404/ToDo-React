@@ -1,0 +1,38 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
+
+body {
+  font-family: "Roboto", sans-serif;
+  background: #e9eaee;
+  color: #222;
+}
+h1 {
+  font-size: 24px;
+  text-align: center;
+}
+.todo-item {
+  border-radius: 30px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  padding: 5px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+  max-width: 80%;
+  cursor: pointer;
+}
+.todo-item > .name {
+  font-size: 16px;
+  margin-left: 10px;
+}
+input[type="text"] {
+  border-radius: 30px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: block;
+  max-width: 60%;
+  margin: 30px auto 20px;
+  padding: 5px 10px;
+  border: none;
+  outline: none;
+  font-size: 12px;
+}
